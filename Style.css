@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+.search{
+   
+    display: flex;
+    margin-left:80px;
+    margin-top: 30px;
+    margin-right: 0;
+}
+.logo_img {
+    height: 70px;
+    width: 230px;
+    margin-top:50px ;
+    margin-left: 20px;
+}
+
+.userlogin{
+    margin-left: 250px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.signup{
+border: 1px solid black;
+margin: 30px;
+padding: 10px 30px;
+background-color: black;
+color: white;
+}
+.content{
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.searchbox{
+    margin-top: 30px;
+ 
+}
+#inputbox{
+ width: 540px;
+ height:50px;
+ padding:2px;
+ font-size: 20px;
+}
+.btn{
+    height:60px ;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 2px;
+    background-color: #fc8019;
+    color: white;
+    font-weight: 600;
+}
+
+img{
+    width: 570px;
+    height: 540px;
+    margin-left: 109px;
+    
+    
+}
+.multi-img{
+    display: flex;
+    width: 100%;
+    height: 380px;
+    background-color: #2b1e16;
+    margin: 0;
+
+    
+}
+.img1{
+    width: 120px;
+    height: 200px;
+    margin: 0;
+    padding:0 185px;
+}
+.divinner{
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 120px;
+    padding: 25px 0;
+}
+p{
+    padding: 5px 0;
+}
+.app{
+    height: 530px;
+    width: 100%;
+    display: flex;
+}
+.applink{
+    margin-top: 90px;
+    margin-left: 80px;
+    padding: 70px;
+    width: calc(100% - 70%);
+}
+
+.appimg{
+    width: 180px;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 60px;
+}
+.photolink{
+    width:calc(100% - 50%);
+    
+    margin-left: 30px;
+    
+}
+.mobile1{
+    margin: 0;
+    width: 400px;
+    height: 550px;
+    
+}
+
+.mobile2{
+    margin-left:0;
+    margin-top: 100px;
+    width: 400px;
+    height: 430px;
+}
+.loactions{
+
+    display: flex;
+}
+.innerlocations{
+padding-top: 80px;    
+padding-left: 150px;
+margin-left: 5px;
+}
+
+li {
+list-style: none;
+text-decoration: none;
+padding-bottom: 20px;    
+}
+a{
+    text-decoration: none;
+    color:#b3b3b3;
+}
+/* a:hover{
+    color: white;
+} */
+.section2{
+    width: 100%;
+    height: 1050px;
+    background-color: black;
+}
+.footer{
+    width: 89%;
+    margin-top: 50px;
+    margin-left: 153px;
+
+}
+.location-place{
+    display: flex;
+}
+.places1{
+padding-top: 50px;    
+padding-left: 0px;
+
+}
+.places2{
+padding-top: 50px;    
+padding-left: 200px;
+
+}
+.places3{
+    padding-top: 50px;    
+    padding-left: 200px;
+    
+}
+.places4{
+    padding-top: 50px;    
+    padding-left: 200px;
+    
+}
+.input:hover{
+    border: 2px solid #fc8019 ;
+    box-shadow: 1px 1px 10px 1px#fc8019  ;
+} 
+.userlogin :hover{
+    color: white;
+}
